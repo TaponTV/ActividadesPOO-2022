@@ -4,8 +4,8 @@ public class Main {
         
         GenericTupla<Double, Double> point1 = new GenericTupla<>(9.0, 2.0);
         GenericTupla<Double, Double> point2 = new GenericTupla<>(9.0, 2.0);
-        boolean aux = Utilities.compare(point1, point2);
-        System.out.println ("Los objetos son iguales? " + aux); 
+        boolean isEqual = Utilities.compare(point1, point2);
+        System.out.println ("Los objetos son iguales? " + isEqual); 
     }
     
 }
